@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz2-2</title>
+  </head>
+  <body>
+    <p>Nama: Nadya Ulya Fitri Larasati<br />NIM: E030425137</p>
+    <hr />
+    <h3>Kuis Praktikum: Form Pemesanan Service</h3>
+
+    <label for="nama_pelanggan">Nama Pelanggan:</label>
+    <input
+      type="text"
+      name="nama_pelanggan"
+      id="nama_pelanggan"
+      placeholder="Masukkan nama"
+      size="40"
+      required
+    />
+
+    <br />
+
+    <label for="Kategori_Layanan">Kategori Layanan:</label>
+    <select name="pilih_kategori" id="pilih_kategori">
+      <option value="Web Development">Web Development</option>
+      <option value="Graphic Design">Graphic Design</option>
+    </select>
+
+    <br /><br />
+
+    <label>Metode Pembayaran:</label>
+
+    <input
+      type="radio"
+      id="Transfer_Bank"
+      name="tipe_klient"
+      value="personal"
+      checked
+    />
+    <label for="Transfer_Bank">Transfer Bank</label>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <input type="radio" id="E-Wallet" name="tipe_klient" value="Korporat" />
+    <label for="E-Wallet">E-Wallet</label>
+
+    <br /><br />
+
+    <button type="submit">
+      <b>Kirim Form</b>
+    </button>
+  </body>
+</html>
